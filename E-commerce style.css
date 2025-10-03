@@ -1,0 +1,574 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+}
+
+.logo {
+  background-image: url(/Assest/logo.svg);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 258px;
+  margin: 3px 0px 0px 20px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(33, 37, 41);
+  gap: 80px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li {
+  padding: 8px;
+}
+
+.menu ul li a {
+  font-weight: 600;
+}
+
+.menu ul li a:hover {
+  border-bottom: 2px solid skyblue;
+  border-bottom-width: 2px;
+  color: #0086e4;
+}
+
+.menu button {
+  display: none;
+}
+
+.bg-btn {
+  background-color: #fede00;
+  border-bottom: none;
+  padding: 7px;
+}
+
+.login-btn {
+  background-color: #0086e4;
+  color: #ffffff;
+  padding: 7px 20px;
+  margin: 0px 20px 0px 0px;
+  border-radius: 4px;
+}
+
+.login-btn a {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+/*****************heo-part ***********************/
+
+.hero-part {
+  height: 590px;
+}
+
+.text-sec {
+  padding: 146px 0px 0px 50px;
+}
+
+.text-sec h1 {
+  color: #fff;
+}
+
+.text2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.text3 {
+  font-size: 1.3rem;
+  border: 1px solid yellow;
+  border-radius: 50px;
+  padding: 5px;
+  width: 185px;
+}
+
+.text4 {
+  color: #fede00;
+  font-size: 0.9rem;
+  margin-top: 7px;
+}
+
+.text-sec h2 {
+  color: #fff;
+}
+
+.media-btns {
+  margin: 10px 0px 25px;
+  cursor: pointer;
+}
+
+.btn2 {
+  float: right;
+  margin-right: 30px;
+}
+
+.btn-in-img {
+  margin-top: 60px;
+  display: block;
+  cursor: pointer;
+}
+
+.book-btn {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #fede00;
+  padding: 13px;
+  border-radius: 8px;
+  color: black;
+}
+
+.book-btn a {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+/*************** MAIN PART *********************/
+.small-logos-section {
+  display: flex;
+  text-align: center;
+  padding: 80px;
+  gap: 60px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.services-hading {
+  color: rgb(35, 35, 61);
+  margin: 0 0 10px 0;
+}
+
+.services-para {
+  color: rgb(155, 152, 152);
+  font-size: 0.75rem;
+  line-height: 15px;
+}
+
+/****************************** sunny ali image ****************************/
+.container {
+  margin: 0px 110px;
+}
+
+.some-about-sunnyali {
+  display: flex;
+  gap: 30px;
+}
+
+.iamge-sunnyali img {
+  height: 350px;
+  width: 350px;
+  float: right;
+}
+
+.about-sunnyali h2 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #183b56;
+  margin: 10px 10px;
+  display: inline-block;
+}
+
+.about-sunnyali span {
+  font-size: 42px;
+  font-weight: 700;
+  color: #183b56;
+}
+
+.sunnyali-para {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgb(91, 91, 91);
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.learn-more-btn {
+  font-weight: 500;
+  background-color: #0086e4;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 4px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+.Succes-hading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: popins, sans-serif;
+  padding: 100px 0 0 0;
+  color: #254582;
+  text-align: center;
+}
+
+.about-some-people {
+  margin-top: 123px;
+}
+
+.ahmad-masood-deatails {
+  display: flex;
+  margin-top: 20px;
+}
+
+.ahmad-masood-image img {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+}
+
+.ahmad-masood-about {
+  margin: 0 0 0 40px;
+}
+
+.ahmad-masood-about h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #212529;
+}
+
+.ahmad-masood-para {
+  font-size: 16px;
+  border-left: 1px solid black;
+  color: #2c2c2c;
+  height: 100px;
+  padding: 16px;
+}
+
+.read-more-btn {
+  text-align: center;
+}
+
+.read-more-btn a {
+  background-color: #f4cd1d;
+  color: #212529;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 1.7rem;
+  border-radius: 8px;
+}
+
+/********** CARD SECTION boxsssssss **************/
+
+.cards-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 45px;
+  gap: 20px;
+}
+
+.blogs {
+  color: #183b56;
+  font-size: 36px;
+  text-align: center;
+  margin: 206px 0 0 0;
+}
+
+.main-box {
+  background-color: #f4f4f4;
+  width: 332px;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+
+.card img {
+  height: 183px;
+  width: 332px;
+}
+
+.handind-para {
+  padding: 20px;
+}
+
+.card-hading {
+  font-size: 20px;
+  margin: 10px 0px 20p;
+  color: #183b56;
+  margin-bottom: 10px;
+}
+
+.card-para {
+  font-size: 14px;
+  color: #5b5b5b;
+}
+
+.main-box a {
+  background-color: #2a73dc;
+  color: #ffffff;
+  padding: 3px 19px;
+  font-size: 1.5rem;
+  margin-left: 270px;
+}
+
+.logos-hading-para {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/******************* PARTENER PART ***********************/
+
+.Partnered-hading {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #212529;
+}
+
+.Partnered-para {
+  font-size: 1rem;
+  color: #2c2c2c;
+  line-height: 24px;
+}
+
+.partner {
+  margin-top: 30px;
+}
+
+/******************** logos section ***************************/
+
+.logos-section {
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 33px 0 35px 0;
+}
+
+.logo-btns {
+  align-items: center;
+}
+
+/******************* FOOTER SECTION **************/
+
+.sub-footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+h5 {
+  font-size: 16px;
+  margin: 0px 0px 20px;
+  color: black;
+}
+
+.sub-footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-para {
+  margin-bottom: 20px;
+  width: 300px;
+  font-size: 0.9rem;
+}
+
+.quick-links {
+  margin-top: 23px;
+}
+
+.quick-links a {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.more-links {
+  margin-top: 23px;
+}
+
+.more-links a {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.links {
+  display: flex;
+  gap: 80px;
+  justify-content: space-evenly;
+}
+
+/************** MEDIA QUERY ******************************/
+@media screen and (max-width: 1272px) {
+  .menu ul {
+    display: none;
+  }
+
+  .menu button {
+    display: block;
+    font-size: 2rem;
+  }
+
+  .login-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .small-logos-section {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .iamge-sunnyali img {
+    height: 370px;
+    width: 400px;
+    float: none;
+  }
+
+  .some-about-sunnyali {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sunnyali-para {
+    font-size: 16px;
+    line-height: 32px;
+    color: #5b5b5b;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .ahmad-masood-deatails {
+    flex-direction: column;
+  }
+
+  .ahmad-masood-para {
+    font-size: 16px;
+    border-left: 1px solid black;
+    color: #2c2c2c;
+    height: 100px;
+    padding: 16px;
+    margin-top: 30px;
+  }
+
+  .read-more-btn {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .cards-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub-footer {
+    flex-direction: column;
+  }
+
+  .sub-footer-logo {
+    margin-bottom: 30px;
+    margin-left: none;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  .logos-section {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 33px 0 35px 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .links {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .ahmad-masood-para {
+    font-size: 16px;
+    border-left: 1px solid black;
+    color: #2c2c2c;
+    height: 100px;
+    padding: 16px;
+    margin-top: 40px;
+  }
+
+  .iamge-sunnyali img {
+    order: -1;
+  }
+
+  .ahmad-masood-about h2 {
+    margin-top: 40px;
+  }
+
+  .logos-section {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 33px 0 35px 0;
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .iamge-sunnyali img {
+    height: 370px;
+    width: 295px;
+    align-items: center;
+    order: -1;
+  }
+
+  .about-sunnyali h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #183b56;
+    margin: 10px 10px;
+    display: inline-block;
+  }
+
+  .about-sunnyali span {
+    font-size: 30px;
+    font-weight: 700;
+    color: #183b56;
+  }
+
+  .logos-section {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 33px 0 35px 0;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .iamge-sunnyali img {
+    height: 246px;
+    width: 253px;
+    align-items: center;
+    order: -1;
+  }
+}
